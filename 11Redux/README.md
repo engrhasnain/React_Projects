@@ -1,12 +1,20 @@
-# React + Vite
+# Todo App (Redux)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **React + Vite** application that implements a fully functional **Todo App** using **Redux** for state management.  
+It allows users to **add**, **edit**, **update**, and **delete** tasks while demonstrating how to manage global state with Redux.
 
-Currently, two official plugins are available:
+### Key Features
+- **Add Tasks**: Create new todos and store them in the Redux store.
+- **Edit & Update**: Modify existing tasks with real-time updates.
+- **Delete Tasks**: Remove tasks from the list seamlessly.
+- **Centralized State**: All data is managed through the **Redux store**, ensuring a predictable state flow.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Key Learnings
+- Setting up a **Redux store** and integrating it with a React application.
+- Creating **actions** and **reducers** to handle state updates.
+- Using **Redux hooks** (`useSelector`, `useDispatch`) for accessing and modifying state.
+- Understanding the difference between **Context API** and **Redux** for larger, more complex applications.
 
-## Expanding the ESLint configuration
+This project strengthens knowledge of **Redux architecture** and provides a solid foundation for building  
+scalable applications that require robust global state management.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
