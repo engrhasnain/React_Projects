@@ -55,20 +55,20 @@ Each project focuses on a specific topic to build a strong foundation in React d
 
 ---
 
-### 8️⃣ **Theme Switch (Context API)**
+### 9️⃣ **Theme Switch (Context API)**
 - Built a **light/dark mode** theme switcher using **Context API** for global state.
 - Learned why and when to use Context API instead of prop drilling.
 - Compared **Context API** to **Redux** for small applications.
 
 ---
 
-### 9️⃣ **Todo App (Context API)**
+### 🔟 **Todo App (Context API)**
 - Created a fully functional **Todo App** with **add**, **edit**, **update**, and **delete** features.
 - Managed global state using **Context API** for efficient state sharing.
 
 ---
 
-### 🔟 **Todo App (Redux)**
+### 1️⃣1️⃣ **Todo App (Redux)**
 - Rebuilt the Todo App using **Redux** for centralized state management.
 - Learned to set up a **Redux store**, create **actions** and **reducers**,  
   and use hooks like `useSelector` and `useDispatch`.
@@ -91,3 +91,4 @@ Each project focuses on a specific topic to build a strong foundation in React d
 1. Clone the repository:
    ```bash
    git clone <repo-url>
+
