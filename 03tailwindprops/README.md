@@ -1,12 +1,13 @@
-# React + Vite
+# Tailwind Setup & Props
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project focuses on learning how to **install, configure, and use Tailwind CSS** in a React + Vite environment.  
+The goal was to understand the **setup process** and how to apply **Tailwind utility classes** to style components efficiently.
 
-Currently, two official plugins are available:
+### Key Learnings
+- Installing and configuring **Tailwind CSS** in a Vite + React project.
+- Setting up the `tailwind.config.js` file for customization.
+- Using **utility-first classes** to style components without writing custom CSS.
+- Understanding **props-based styling** with Tailwind for dynamic UI changes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project serves as a starting point for building modern, responsive UIs with Tailwind CSS.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
