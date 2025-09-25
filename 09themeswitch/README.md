@@ -1,12 +1,18 @@
-# React + Vite
+# Theme Switch (Context API)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **React + Vite** application built to understand and implement the **Context API** for global state management.  
+The goal was to create a simple **Theme Switcher** that toggles between **light** and **dark** modes using a single button.
 
-Currently, two official plugins are available:
+### Key Features
+- **Global State Management**: Used the **Context API** to manage the theme state across the entire app.
+- **Theme Toggle**: Switch between **Black (Dark Mode)** and **White (Light Mode)** with one click.
+- **Reusable Components**: Components dynamically adapt to the current theme.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Key Learnings
+- Why and when to use **Context API** instead of passing props manually (prop drilling).
+- Creating a **context provider** to share data across the component tree.
+- Comparing **Context API** with **Redux** for managing global state.
+- Implementing **dynamic styling** based on context values.
 
-## Expanding the ESLint configuration
+This project strengthens understanding of **React Context API** as a simpler alternative to Redux for smaller applications.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

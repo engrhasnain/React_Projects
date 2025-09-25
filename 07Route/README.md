@@ -1,12 +1,19 @@
-# React + Vite
+# React Router Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **React + Vite** application built to understand and implement **React Router** for client-side navigation.  
+The main goal was to learn how to create multi-page React applications without reloading the page.
 
-Currently, two official plugins are available:
+### Key Features
+- **Routing Setup**: Implemented routes using `createBrowserRouter` and `createRoutesFromElements`.
+- **Dynamic Routing**: Used URL parameters (e.g., `/user/:id`) to render dynamic content.
+- **Nested Routes & Layouts**: Learned to use the `Outlet` component to create shared layouts and nested routes.
+- **Reusable Components**: Created pages like **Home**, **About**, **Contact**, **Github**, and **User** with clean structure.
+- **Navigation**: Practiced linking between pages without full page refreshes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Key Learnings
+- Configuring **React Router v6** for SPA (Single Page Application) navigation.
+- Understanding **nested routes** and how the `Outlet` component helps render child components.
+- Passing and handling **route parameters** for dynamic page rendering.
+- Building a scalable folder structure with multiple components and pages.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project serves as a foundation for building **multi-page React applications** with seamless navigation.
